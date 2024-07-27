@@ -278,10 +278,10 @@ body {
 
 .about-text p {
     color: #090a0acc;
-    line-height: 1.4;
+    line-height: 40px;
     margin-bottom: 4rem;
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 24px;
 }
 
 .about-text p .first {
@@ -481,6 +481,9 @@ body {
     animation: animateLine 1s cubic-bezier(1, 0, 0, 1) forwards;
     transform: scaleX(0);
     transform-origin: left;
+}
+.services .main .card ul li{
+    font-size: 17px;
 }
 
 @keyframes animateLine {
